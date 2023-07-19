@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--head part include some song to listen -->
+        <title>portfolio web page</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/eb138b955c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section id="Home">
+            <header>
+                <h1><strong>Welcom to Baha Portfolio</strong></h1>
+                <p class="music-desc">click below to listen to music</p>
+                <iframe class="music-button" width="50" height="40" src="https://www.youtube.com/embed/SCXX91QnZSg" title="Deep Work Music pour programmeurs, créateurs, concepteurs - Atmosphérique Futur Garage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </header>
+            <nav>
+                <!--Nav Bar  -->
+                <div class="navbar">
+                    <a href="#Home"><button class="navbar">Home</button></a>
+                    <a href="#About"><button class="navbar">About</button></a>
+                    <a href="#Work"><button class="navbar">Work</button></a>
+                    <a href="#Resume"><button class="navbar">Resume</button></a>
+                    <a href="#Contact"><button class="navbar">Contact</button></a>
+                </div>
+            </nav>
+        </section>
+        <main>
+            <!--Main dived into sections  -->
+            <section id="About">
+                <article>
+                    <h2>
+                        I am <u>Baha Edine Taouai</u>
+                    </h2>
+                    <p class="about-p">
+                        I'm Baha Edine, 27 years old Software engineer student <br> holder of <b>bachelore degree in Nursing Science</b> <br> and senior technical support specialist .
+                    </p>
+                </article>
+            </section>
+            <section id="Work">
+                <h3><u>This is my work experience</u></h3>
+                <ol class="list">
+                    <li>Senior Technical Support Specialist 2021-2023</li>
+                    <li>Technical Support Specialist 2019-2021</li>
+                </ol>
+            </section>
+            <section id="Resume">
+                <table class="table">
+                    <caption>Career Information</caption>
+                    <strong>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Occupation</th>
+                        <th>Education</th>
+                    </tr>
+                    </strong>
+                    <tr>
+                        <td>Baha Edine Taouai</td>
+                        <td>27</td>
+                        <td>Senior Technical Support Specialist</td>
+                        <td>Bachelor's Degree in Nursing Science</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="Summary">
+                <h4>Brief Summary</h4><br>
+                <article>
+                    Baha Edine is a 27-year-old individual currently pursuing studies in software engineering. <br>
+                    Despite holding a bachelor's degree in Nursing Science, their passion for technology and software development led them to pursue a career in the field. <br>
+                    Alongside their studies, Baha Edine has also gained experience as a senior technical support specialist, showcasing their expertise in providing technical assistance to users.<br> 
+                    Their diverse background in healthcare and technical support contributes to their unique perspective and problem-solving skills.
+                </article>   
+            </section>
+        </main>
+        <footer>
+            <!--contact with email and linkedin clickable links  -->
+            <section id="Contact">
+                <img src="https://png.pngtree.com/png-vector/20230213/ourlarge/pngtree-circle-phone-call-icon-in-black-color-png-image_6596895.png" alt="phone">
+                <aside>+216 55817887</aside>
+                <i class="fa-regular fa-envelope"></i>
+                <aside><a href="mailto:baha.edine.taouai@gmail.com">baha.edine.taouai@gmail.com</a></aside>
+                <img src="https://www.iconpacks.net/icons/2/free-linkedin-logo-icon-2430-thumb.png" alt="linkedin">
+                <aside><a href="https://www.linkedin.com/in/taouai/">linkedin</a></aside>
+            </section>
+            <section id="Suggestions">
+                <form>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin" viewBox="0 0 16 16">
+                        <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354zm1.58 1.408-.002-.001.002.001zm-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a4.922 4.922 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a4.915 4.915 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.775 1.775 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14c.06.1.133.191.214.271a1.78 1.78 0 0 0 .37.282z"/>
+                    </svg>
+                    <label for="Suggestions">Suggestions :</label>
+                    <input type="text" id="Suggestions" name="Suggestions" value="Your Espace For Suggestions">
+                    <input type="submit">
+                </form>
+                
+            </section>
+        </footer>
+    </body>
+</html>
